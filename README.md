@@ -1,6 +1,6 @@
 # democratize_app
 
-民主化運動計画
+民主化計画
 
 ## Getting Started
 
