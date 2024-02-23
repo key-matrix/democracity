@@ -15,7 +15,6 @@ void main() {
 
 class MyApp extends ConsumerWidget {
   const MyApp({Key? key}) : super(key: key);
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -24,11 +23,8 @@ class MyApp extends ConsumerWidget {
       //プロバイダ参照
       title: ref.watch(appNameProvider),
       //ダークテーマ
-      theme: ThemeData.dark(
-        // primarySwatch: Colors.teal,
-      ),
-      //ルート画面
-      //  Apphome: const LoginTop(),Top()から変更
+      theme: ThemeData.dark(),
+      home: const LoginTop(), //,
     );
   }
 }
