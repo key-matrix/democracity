@@ -3,13 +3,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 //App名
 final appNameProvider = StateProvider((ref) => "Democracity");
 
-
-
 //  ----ログイン時 ----
 //入力ユーザ名
-final inputUseNameProvider = StateProvider((ref) => "") as String;
+final inputUseNameProvider = StateProvider((ref) => "aa");
 //入力パスワード
-final inputPassProvider = StateProvider((ref) => "") as String;
+final inputPassProvider = StateProvider((ref) => "aa");
 
 //  ----ログイン後情報 ----
 //ユーザ名(ニック)
@@ -43,4 +41,5 @@ final likedProvider = StateProvider((ref) => "") as int;
 //LIKE持ち数
 final likeAmountProvider = StateProvider((ref) => "") as int;
 //投稿リスト (タイトル : 本文)
-final postedListProvider = StateProvider((ref) => []) as List<Map<String,String>>;
+final postedListProvider =
+    StateProvider((ref) => []) as List<Map<String, String>>;

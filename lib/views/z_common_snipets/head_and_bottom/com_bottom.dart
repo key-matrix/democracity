@@ -15,46 +15,48 @@ class BottomNaviBar extends ConsumerWidget {
     //todo 最下部へ移動（グラフ挿入後レイアウト修正-幅、Colors,Animations）
     return Expanded(
         child: Row(
-          children: [
-            //勤怠ボタン
-            ElevatedButton.icon(
-              icon: const Icon(
-                //時間Icons
-                Icons.calendar_today,
-                color: Colors.white,
-              ),
-              label: const Text('timeSchedule'),
-              style: ElevatedButton.styleFrom(
-                foregroundColor: Colors.white, backgroundColor: Colors.green,
-              ),
-              onPressed: () {},
-            ),
-            //コスト参照ボタン(Top画面)
-            ElevatedButton.icon(
-              icon: const Icon(
-                Icons.dashboard,
-                color: Colors.white,
-              ),
-              label: const Text('top'),
-              style: ElevatedButton.styleFrom(
-                foregroundColor: Colors.white, backgroundColor: Colors.green,
-              ),
-              onPressed: () {},
-            ),
-            //履歴画面
-            ElevatedButton.icon(
-              icon: const Icon(
-                Icons.history,
-                color: Colors.white,
-              ),
-              label: const Text('history'),
-              style: ElevatedButton.styleFrom(
-                primary: Colors.green,
-                onPrimary: Colors.white,
-              ),
-              onPressed: () {},
-            ),
-          ],
-        ));
+      children: [
+        //勤怠ボタン
+        ElevatedButton.icon(
+          icon: const Icon(
+            //時間Icons
+            Icons.calendar_today,
+            color: Colors.white,
+          ),
+          label: const Text('timeSchedule'),
+          style: ElevatedButton.styleFrom(
+            foregroundColor: Colors.white,
+            backgroundColor: Colors.green,
+          ),
+          onPressed: () {},
+        ),
+        //コスト参照ボタン(Top画面)
+        ElevatedButton.icon(
+          icon: const Icon(
+            Icons.dashboard,
+            color: Colors.white,
+          ),
+          label: const Text('top'),
+          style: ElevatedButton.styleFrom(
+            foregroundColor: Colors.white,
+            backgroundColor: Colors.green,
+          ),
+          onPressed: () {},
+        ),
+        //履歴画面
+        ElevatedButton.icon(
+          icon: const Icon(
+            Icons.history,
+            color: Colors.white,
+          ),
+          label: const Text('history'),
+          style: ElevatedButton.styleFrom(
+            foregroundColor: Colors.white,
+            backgroundColor: Colors.green,
+          ),
+          onPressed: () {},
+        ),
+      ],
+    ));
   }
 }
