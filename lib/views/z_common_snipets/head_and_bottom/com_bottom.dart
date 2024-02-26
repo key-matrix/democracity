@@ -25,7 +25,7 @@ class BottomNaviBar extends ConsumerWidget {
           ),
           label: const Text('timeSchedule'),
           style: ElevatedButton.styleFrom(
-            foregroundColor: Colors.white,
+            foregroundColor: Colors.green,
             backgroundColor: Colors.green,
           ),
           onPressed: () {},
@@ -38,7 +38,7 @@ class BottomNaviBar extends ConsumerWidget {
           ),
           label: const Text('top'),
           style: ElevatedButton.styleFrom(
-            foregroundColor: Colors.white,
+            foregroundColor: Colors.green,
             backgroundColor: Colors.green,
           ),
           onPressed: () {},
@@ -51,7 +51,7 @@ class BottomNaviBar extends ConsumerWidget {
           ),
           label: const Text('history'),
           style: ElevatedButton.styleFrom(
-            foregroundColor: Colors.white,
+            foregroundColor: Colors.green,
             backgroundColor: Colors.green,
           ),
           onPressed: () {},
