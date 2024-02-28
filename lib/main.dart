@@ -1,8 +1,8 @@
+import 'package:democratize_app/views/screen/login/login_top.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'model/liverpod/liverpod.dart';
-import 'views/login/login_top.dart';
+import 'liverpod.dart';
 
 void main() {
   runApp(
@@ -15,6 +15,7 @@ void main() {
 
 class MyApp extends ConsumerWidget {
   const MyApp({Key? key}) : super(key: key);
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context, WidgetRef ref) {
