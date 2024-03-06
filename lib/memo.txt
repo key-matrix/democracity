@@ -3,7 +3,11 @@
 https://mobbin.com/apps/ted-ios-443f2182-25bd-4bcd-8eac-d049b305f4ed
 
 
+-------TODO
+フォントインストール
+UIモック作成
+画面左上(戻るボタン)　削除
 -------
 
 
--------
+
